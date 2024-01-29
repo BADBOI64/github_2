@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 .standard-knap {
-    color: var(--color-three);
+    color: var(--color-white);
     background-color: var(--color-one);
     text-align: center;
     padding: var(--knap-padding);
@@ -21,6 +21,7 @@ h1 {
 h2 {
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-regular);
+    text-align: center;
 }
 h3, h5 {
     font-size: var(--font-size-xlarge);
@@ -110,12 +111,30 @@ align-items: center;}
 
     text-align: center;
     padding: 2rem;
-    color: var(--color-four);
     gap: 1rem;
     width: 100%;
 }
+.third h5 {
+    color: var(--color-four);
+}
 .third p {
     text-align: left;
+    color: var(--color-four);
+
+}
+.third a {
+width: fit-content;
+align-self: center;
+}
+
+footer {
+    background-color: var(--color-two);
+    height: 15svh;
+    color: var(--color-white);
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-size: var(--font-size-large);
+    
 }
 
 @media only screen and (max-width: 700px) {
