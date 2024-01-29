@@ -80,7 +80,6 @@ align-items: center;}
 .sec  {
     padding: 1rem 2rem 3rem 2rem;
     background-color: var(--color-three);
-    height:fit-content;
 
 }
 .sec article {
@@ -107,7 +106,17 @@ align-items: center;}
     width: 100%;
     font-size: var(--font-size-regular);
 }
+.third {
 
+    text-align: center;
+    padding: 2rem;
+    color: var(--color-four);
+    gap: 1rem;
+    width: 100%;
+}
+.third p {
+    text-align: left;
+}
 
 @media only screen and (max-width: 700px) {
     .sec {
