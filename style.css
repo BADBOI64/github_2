@@ -3,6 +3,11 @@
     flex-direction: row;
     align-items: center;
 }
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .header_øverst {
     background-color: var(--color-three);
@@ -20,7 +25,7 @@
     padding: 1.5rem 0.5rem;
 }
 .header_nederst i{
-    font-size: 2rem;
+    font-size: var(--font-size-xlarge);
 }
 .hero {
     height: 30svh;
@@ -29,5 +34,23 @@
 .hero img {
     width: 100%;
     object-fit: cover;
+}
+.first {
+    background-color: var(--color-one);
+    color: var(--color-three);
+    width: 100%;
+    padding: 1rem;
+}
+.sec  {
+    padding: 0 2rem;
+}
+.sec form {
+    background-color: var(--color-two);
+    border-radius: 15%;
+    padding: 2rem;
+}
+.sec form input {
+    background-color: var(--color-three);
+    color: var(--color-four);
 }
 

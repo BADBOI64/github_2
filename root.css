@@ -1,13 +1,32 @@
 @import url(style.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
+    --color-white: #ffffff ;
+    --color-black: #000000;
     --color-one: #779882 ;
     --color-two: #425348 ;
     --color-three: #F3F4EF;
     --color-four: #3C3C3C;
-    --font-one: Roboto, sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+    --font-size-xlarge: 2rem;
+    --font-size-large: 1.5rem;
+    --font-size-regular: 1rem;
+    --font-size-small: 0.8rem;
 
+    font-family: 'Roboto', sans-serif;
+    
 }
-
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
 
 
 /***
