@@ -1,0 +1,33 @@
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_øverst {
+    background-color: var(--color-three);
+    height: 2svh;
+    justify-content: flex-end;
+    font-size: 0.6rem;
+    gap: 0.2rem;
+    padding: 0 0.2rem 0 0;
+    opacity: 0.8;
+}
+.header_nederst {
+    background-color: var(--color-one);
+    height: 4svh;
+    justify-content: space-between;
+    padding: 1.5rem 0.5rem;
+}
+.header_nederst i{
+    font-size: 2rem;
+}
+.hero {
+    height: 30svh;
+
+}
+.hero img {
+    width: 100%;
+    object-fit: cover;
+}
+
